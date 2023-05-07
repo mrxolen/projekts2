@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+
+body {
+    background-color: #ffd1b3;
+    font-family: 'Quicksand', sans-serif;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100px;
+  }
+
+.item {
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+.item.center {
+    flex-grow: 5;
+    padding-left: 3%;
+    font-size: 160%;
+    font-weight: 600;
+  }
+
+.item.left {
+    background-image: url("rk.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100%; /* задаем высоту блока для отображения изображения */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 0 3em;
+  }
+
+.text.left {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: 700;
+    font-size: 400%;
+}
+
+.item.right {
+    flex-grow: 2;
+    margin: 0 3em;
+}
+
+.image.right {
+    padding-left: 10%;
+    height:100%;
+}
+
+hr {
+    border-width: 2px;
+    border-color: #ffb17d;
+  }
+
+.header-button {
+    background-color: #ff9853;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main.left {
+    flex: 5;
+}
+
+.main.right {
+    flex: 1;
+    padding-top: 50px;
+}
+
+#main {
+    border-width: 1px;
+    border-color: darkgray;
+}
+
+.maincontent.first {
+  background-image: url(sfirst.jpg);
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 20%;
+}
+
+.maincontent.second {
+    background-image: url(ssecond.jpg);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 20%;
+}
+
+.maincontent.third {
+    background-image: url(sthird.png);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 20%;
+}
+
+.maincontent.text {
+    margin-left: 320px;
+    width: 1000px;
+} 
+
+.maincontent.text.footer {
+    font-weight: 400;
+    font-size: 20px;
+}
